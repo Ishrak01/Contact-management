@@ -3,8 +3,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const express = require('express');
 
-const contactRoute =require ("../server/routes/contactRoute")
-const userContactRoute =require ("../server/routes/userContactRoute")
+const contactRoute =require('./routes/contactRoute')
+const userContactRoute=require('./routes/userContactRoute')
 const morgan = require('morgan');
 
 const connectDB = require('./config/DB.js');
